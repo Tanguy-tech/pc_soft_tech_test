@@ -18,3 +18,7 @@ Règles à respecter :
 5. Le programme sera en C ou C++, en ligne de commande pour Windows ou Linux (compilateur au choix).
 6. La partie affichage sera aussi dépouillée que possible, mais lisible.
 7. Faire très simple mais très clair, fiable, évolutif et maintenable!
+
+TO RUN:
+- run `make` 
+- exec `./Lexical_analyze` and follow the instructions
