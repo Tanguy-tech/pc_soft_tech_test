@@ -60,10 +60,13 @@ int		number_sorted_occurences(std::string sentence)
 	}
 	for (auto elem : sorted)
 	{
-		std::cout << DEFAULT << elem.first << "=" << elem.second;
-		const auto &lastkey = sorted.rbegin()->first;
-		if (elem.first != lastkey)
-			std::cout << ", ";
+		if (elem.second > 1)
+		{
+			std::cout << DEFAULT << elem.first << "=" << elem.second;
+			const auto &lastkey = sorted.rbegin()->first;
+			if (elem.first != lastkey)
+				std::cout << ", ";
+		}
 	}
 	return 3;
 }
